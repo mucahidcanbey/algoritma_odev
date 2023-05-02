@@ -55,6 +55,32 @@ def selection_sort(arr):
 - [8,11,12,16,21,22] </br></br>
 Big-O gösterimi: Merge Sort, O(n log n) zamana sahip bir algoritmadır.</br></br>
 
+ # Binary-Search-Tree: 
+
+```
+       7
+     /   \
+    5     8
+   / \     \
+  1   6     9
+   \       /
+    3     0
+     \
+      4
+       \
+        2
+        
+```
+
+</br>
+BST aşamaları şu şekildedir:
+
+- 7 kök düğüm olarak seçilir.
+- 5, 1 ve 8 sırasıyla 7'nin sol alt ağacına, sol çocuğu ve sağ alt ağacına eklenir.
+- 3, 6, 9 sırasıyla 5'in sağ alt ağacına, sol çocuğuna ve 8'in sağ alt ağacına eklenir.
+- 0, 4 ve 2 sırasıyla 3'ün sağ çocuğuna, 4'ün sağ çocuğuna ve 2'nin sağ çocuğuna eklenir.
+<p>Bu şekilde BST, verilen dizi elemanlarını sıralı bir şekilde tutar.</p>
+</br></br>
 
 ---
 
@@ -68,7 +94,7 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Algoritma ödev Reposu. İçer
 Öncelikle projeyi clonelayın.
 
 ```
-https://github.com/mucahidcanbey/algoritma_odev_1.git
+https://github.com/mucahidcanbey/algoritma_odev.git
 ```
 
 ## Usage
@@ -78,7 +104,7 @@ Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 Linux için:
 
 ```
-cd algoritma_odev_1
+cd algoritma_odev
 code .
 ```
 
