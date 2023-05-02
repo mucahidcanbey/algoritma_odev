@@ -45,6 +45,17 @@ def selection_sort(arr):
 ```
 </br></br>
 
+# Merge Sort'a göre aşamaları şu şekildedir:
+
+- [16,21,11] [8,12,22]
+- [16,21] [11] [8,12] [22]
+- [16] [21] [11] [8] [12] [22]
+- [16,21] [8,11] [12,22]
+- [8,11,16,21] [12,22]
+- [8,11,12,16,21,22] </br></br>
+Big-O gösterimi: Merge Sort, O(n log n) zamana sahip bir algoritmadır.</br></br>
+
+
 ---
 
 ![Proje](https://kodluyoruz.org/wp-content/uploads/2022/05/kodluyoruz_yatay_slogan-300x35.png)
